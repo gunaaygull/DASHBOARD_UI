@@ -141,4 +141,5 @@ const SingleStudentPage = () => {
     </div>
   );
 };
+
 export default SingleStudentPage;
