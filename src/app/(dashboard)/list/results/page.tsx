@@ -4,7 +4,6 @@ import TableSearch from "@/app/components/TableSearch";
 import { assignmentsData, examsData, lessonsData, resultsData, role, subjectsData } from "@/lib/data";
 import Image from "next/image";
 import Link from "next/link";
-
 type Result = {
   id: number;
   subject: string;
@@ -14,10 +13,7 @@ type Result = {
   type: "exam" | "assignment";
   date: string;
   score:number;
-
-
 };
-
 const columns = [
   {
     header: "Subject Name",

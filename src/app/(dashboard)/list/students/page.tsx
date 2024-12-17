@@ -5,7 +5,6 @@ import TableSearch from "@/app/components/TableSearch";
 import { role, studentsData } from "@/lib/data";
 import Image from "next/image";
 import Link from "next/link";
-
 type Student = {
   id: number;
   studentId: string;
@@ -17,7 +16,6 @@ type Student = {
   class: string;
   address: string;
 };
-
 const columns = [
   {
     header: "Info",

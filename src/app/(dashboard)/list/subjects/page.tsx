@@ -9,7 +9,6 @@ type Subject = {
   id: number;
   name: string;
   teachers: string[]
- 
 };
 
 const columns = [
